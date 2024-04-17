@@ -1,0 +1,32 @@
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	background-color: #282828;
+	gap: 25px;
+}
+
+.session {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.userImg {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.btn {
+	background-color: #4c4c4c;
+	cursor: pointer;
+	transition: background-color 0.2s linear;
+	padding: 10px 20px;
+	border-radius: 10px;
+
+	&:hover {
+		background-color: #6e6e6e;
+	}
+}
